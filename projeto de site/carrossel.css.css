@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.carrolssel{
+    width: 50%;
+    height: 500px;
+    outline: 30px solid black;
+      overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.7);
+}
+.carrolssel.ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: 500;
+
+}
+.carrolssel.li{
+    position: relative;
+    left: -500px;
+    animation: slide 20s infinite ease-out;
+}
+
+@keyframes slide{
+0% (left:0px);
+50% (left: -500px);
+100% (left: 1000px);
+}
