@@ -1,0 +1,307 @@
+.cabeçalho{
+    background-image: url("ceu\ estrelado.png");
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    padding: none;
+    margin: 0%;
+    left: 0%;
+    top: 0%;
+}
+
+.barra_de_pesquisa{
+    position: absolute;
+width: 30%;
+height: 8%;
+left: 35%;
+top: 15%;
+padding: 0%;
+
+
+background: #ffffff;
+border: 5px solid #FF0000;
+border-radius: 50px;
+}
+.botao_1{
+position: absolute;
+width: 33.8%;
+height: 10%;
+left: 0%;
+top: 40%;
+border: 1px rgb(0, 140, 255) ;
+background: rgb(0, 140, 255);
+}
+.botao_1 h1{
+    margin: 1.7% ;
+    font-size: 300%;
+    color: rgb(0, 0, 0);
+   
+    
+}
+.botao_2{
+position:absolute;
+width: 33.5%;
+height: 10%;
+left: 33.3%;
+top: 40%;
+border: yellow;
+
+
+background-color: yellow;}
+.botao_2 h1{
+    margin: 1.7% ;
+    font-size: 300%;
+    color: rgb(0, 0, 0);
+   
+    
+}
+.botao_3{
+position: absolute;
+width: 33.5%;
+height: 10%;
+left: 66.7%;
+top: 40%;
+border: red;
+
+background-color: red;
+
+
+
+}
+.botao_3 h1{
+    margin: 1.7% ;
+    font-size: 300%;
+    color: rgb(0, 0, 0);
+   
+    
+}
+
+.conteiner6 {
+    width: 100%;
+    height:30%;
+    top: 46.1%;
+    position: absolute;
+    left: 0%;
+    padding: none;
+}
+
+.slider li {
+    list-style: none;
+   
+}
+
+.slider img {
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    vertical-align:top;
+    
+}
+.slider input {
+    display: none;}
+   
+.slider label {
+    background-color: rgb(255, 0, 0);
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+    position: absolute;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+    position: absolute;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;}
+    .slider img {
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    .slider li input:checked ~ img {
+        opacity: 1;
+        visibility: visible;
+        z-index: 10;
+    }
+
+
+.conteiner7{
+    top: 80%;
+    left: 0%;
+    width: 45%;
+    height: 100%;
+}
+
+
+.caixa_7{
+    background-image: url("o\ melhor\ do\ mundo\ gamer.png");
+    width: 100%;
+    height: 60px;
+    margin-top: 65.5%;
+    padding: 0%;
+    left: -3%;
+}
+
+.caixa_8{
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    top: 920px;
+    margin-left: 4%;
+    
+    display: block;
+    position: absolute;
+}
+.caixa_9{
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    top: 920px;
+    margin-left: 28%;
+    
+    display: block;
+    position: absolute;
+}
+.caixa_10{
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    top: 920px;
+    margin-left: 52%;
+    
+    display: block;
+    position: absolute;
+}
+.caixa_11{
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    top: 920px;
+    margin-left: 76%;
+    
+    display: block;
+    position: absolute;
+}
+.caixa_12{
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    top:1165px;
+    margin-left: 4%;
+    
+    display: block;
+    position: absolute;
+}
+.caixa_13{
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    top: 1165px;
+    margin-left: 28%;
+    
+    display: block;
+    position: absolute;
+}
+.caixa_14{
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    top: 1165px;
+    margin-left: 52%;
+    
+    display: block;
+    position: absolute;
+}
+.caixa_15{
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    top: 1165px;
+    margin-left: 76%;
+    
+    display: block;
+    position: absolute;
+}
+.caixa_16{
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    top: 1165px;
+    margin-left: 76%;
+    
+    display: block;
+    position: absolute;
+}
+.caixa_17{
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    top:1410px;
+    margin-left: 4%;
+    
+    display: block;
+    position: absolute;
+}
+.caixa_18{
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    top: 1410px;
+    margin-left: 28%;
+    
+    display: block;
+    position: absolute;
+}
+.caixa_19{
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    top: 1410px;
+    margin-left: 52%;
+    
+    display: block;
+    position: absolute;
+}
+.caixa_20{
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    top: 1410px;
+    margin-left: 76%;
+    
+    display: block;
+    position: absolute;
+}
+.caixa_21{
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    top: 1410px;
+    margin-left: 76%;
+    
+    display: block;
+    position: absolute;
+}
+    
+
+body{
+    background-image: url("fundo\ do\ corpo.png");
+    width: 100%;
+    height: 4000px;
+    padding: none;
+    margin: 0%;
+    left: 0%;
+    top: 0%;
+}
+   
+    
