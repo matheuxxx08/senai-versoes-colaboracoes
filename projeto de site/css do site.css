@@ -1,3 +1,8 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
 .cabeçalho{
     background-image: url("ceu\ estrelado.png");
     width: 100%;
@@ -135,173 +140,51 @@ background-color: red;
     }
 
 
-.conteiner7{
-    top: 80%;
+.conteiner0{
+    margin-top: 50%;
     left: 0%;
-    width: 45%;
-    height: 100%;
+    width: 100%;
+    height: 50%;
 }
 
 
 .caixa_7{
+    /* display: flex; */
     background-image: url("o\ melhor\ do\ mundo\ gamer.png");
     width: 100%;
     height: 60px;
-    margin-top: 65.5%;
+    margin-top: 65%;
     padding: 0%;
     left: -3%;
 }
 
-.caixa_8{
-    background-color: white;
-    width: 20%;
-    height: 200px;
-    top: 920px;
-    margin-left: 4%;
-    
-    display: block;
-    position: absolute;
-}
-.caixa_9{
-    background-color: white;
-    width: 20%;
-    height: 200px;
-    top: 920px;
-    margin-left: 28%;
-    
-    display: block;
-    position: absolute;
-}
-.caixa_10{
-    background-color: white;
-    width: 20%;
-    height: 200px;
-    top: 920px;
-    margin-left: 52%;
-    
-    display: block;
-    position: absolute;
-}
-.caixa_11{
-    background-color: white;
-    width: 20%;
-    height: 200px;
-    top: 920px;
-    margin-left: 76%;
-    
-    display: block;
-    position: absolute;
-}
-.caixa_12{
-    background-color: white;
-    width: 20%;
-    height: 200px;
-    top:1165px;
-    margin-left: 4%;
-    
-    display: block;
-    position: absolute;
-}
-.caixa_13{
-    background-color: white;
-    width: 20%;
-    height: 200px;
-    top: 1165px;
-    margin-left: 28%;
-    
-    display: block;
-    position: absolute;
-}
-.caixa_14{
-    background-color: white;
-    width: 20%;
-    height: 200px;
-    top: 1165px;
-    margin-left: 52%;
-    
-    display: block;
-    position: absolute;
-}
-.caixa_15{
-    background-color: white;
-    width: 20%;
-    height: 200px;
-    top: 1165px;
-    margin-left: 76%;
-    
-    display: block;
-    position: absolute;
-}
-.caixa_16{
-    background-color: white;
-    width: 20%;
-    height: 200px;
-    top: 1165px;
-    margin-left: 76%;
-    
-    display: block;
-    position: absolute;
-}
-.caixa_17{
-    background-color: white;
-    width: 20%;
-    height: 200px;
-    top:1410px;
-    margin-left: 4%;
-    
-    display: block;
-    position: absolute;
-}
-.caixa_18{
-    background-color: white;
-    width: 20%;
-    height: 200px;
-    top: 1410px;
-    margin-left: 28%;
-    
-    display: block;
-    position: absolute;
-}
-.caixa_19{
-    background-color: white;
-    width: 20%;
-    height: 200px;
-    top: 1410px;
-    margin-left: 52%;
-    
-    display: block;
-    position: absolute;
-}
-.caixa_20{
-    background-color: white;
-    width: 20%;
-    height: 200px;
-    top: 1410px;
-    margin-left: 76%;
-    
-    display: block;
-    position: absolute;
-}
 .caixa_21{
+    display: flex;
+    gap: 5px;
     background-color: white;
-    width: 20%;
-    height: 200px;
-    top: 1410px;
-    margin-left: 76%;
-    
-    display: block;
-    position: absolute;
+    width: 60%;
+    height: 20vh;
+ 
 }
     
 
 body{
     background-image: url("fundo\ do\ corpo.png");
     width: 100%;
-    height: 4000px;
-    padding: none;
-    margin: 0%;
+    height: 100%;
+       margin: 0%;
     left: 0%;
     top: 0%;
 }
-   
+.caixaGeral{
+    position: absolute;
+
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    width: 100%;
+    height: 100%;
     
+    padding: 80px;
+} 
+    
+  
