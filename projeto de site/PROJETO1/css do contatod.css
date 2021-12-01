@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+}
+.caixacontatos{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius:100px ;
+    width: 85%;
+    height: 80%;
+    background-image: url("fundo\ do\ corpo.png");
+    position: absolute;
+    left: 7%;
+    top: 10%;
+}
+.contato{
+    margin-left: 10%;
+    margin-top: 10%;
+}

@@ -1,0 +1,209 @@
+*{
+    margin-right: 0%;
+    margin-left: 0%;
+    padding: 0%;
+}
+.cabeçalho{
+    background-image: url("ceu\ estrelado.png");
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    padding: none;
+    margin: 0%;
+    left: 0%;
+    top: 0%;
+}
+
+.barra_de_pesquisa{
+    position: absolute;
+width: 30%;
+height: 8%;
+left: 35%;
+top: 15%;
+padding: 0%;
+
+
+background: #ffffff;
+border: 5px solid #FF0000;
+border-radius: 50px;
+}
+.botao_1{
+position: absolute;
+width: 33.8%;
+height: 10%;
+left: 0%;
+top: 40%;
+border: 1px rgb(0, 140, 255) ;
+background: rgb(0, 140, 255);
+}
+.botao_1 h1{
+    margin: 1.7% ;
+    font-size: 300%;
+    color: rgb(0, 0, 0);
+   
+    
+}
+.botao_2{
+position:absolute;
+width: 33.5%;
+height: 10%;
+left: 33.3%;
+top: 40%;
+border: yellow;
+
+
+background-color: yellow;}
+.botao_2 h1{
+    margin: 1.7% ;
+    font-size: 300%;
+    color: rgb(0, 0, 0);
+   
+    
+}
+.botao_3{
+position: absolute;
+width: 33.5%;
+height: 10%;
+left: 66.7%;
+top: 40%;
+border: red;
+
+background-color: red;
+
+
+
+}
+.botao_3 h1{
+    margin: 1.7% ;
+    font-size: 300%;
+    color: rgb(0, 0, 0);
+   
+    
+}
+
+ .conteiner6 {
+    width: 100%;
+    height:100%;
+    top: 20%;
+    position: absolute;
+    left: 0%;
+  
+}
+
+.conteiner6 li {
+    list-style: none;
+   
+}
+
+.conteiner6 img {
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    vertical-align:top;
+    
+}
+.conteiner6 input {
+    display: none;}
+   
+.conteiner6 label {
+    background-color: rgb(255, 0, 0);
+    bottom: 10px;
+    cursor: pointer;
+    
+    height: 20px;
+    
+    width: 10px;
+    z-index: 10;
+}
+
+.conteiner6 li:nth-child(1) label {
+    left: 10px;
+  
+}
+
+.conteiner6 li:nth-child(2) label {
+    left: 40px;
+    
+}
+
+.conteiner6 li:nth-child(3) label {
+    left: 70px;}
+    .conteiner6 img {
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    .conteiner6 li input:checked ~ img {
+        opacity: 1;
+        visibility: visible;
+        z-index: 10;
+    } 
+
+
+
+
+.caixa_7{
+    margin-left: 0%;
+    background-color: gray;
+    width: 100%;
+    height: 60px;
+    margin-top:90%;
+    padding: 0%;
+    position: absolute;
+}
+.caixa_7 h1{
+    top: -35%;
+    left: 35%;
+    font-size: 250%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.caixa_21{
+    display: flex;
+    gap: 5px;
+    background-color: white;
+    width: 60%;
+    height: 20vh;
+  
+    
+}
+    
+
+body{
+    background-image: url("fundo\ do\ corpo.png");
+    width: 100%;
+    height: 100%;
+   
+}
+.caixaGeral{
+    position: absolute;
+    top: 220%;
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    padding: 80px;
+} 
+/* .slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}     */
+  
